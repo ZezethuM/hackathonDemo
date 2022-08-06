@@ -15,6 +15,14 @@ shareButton.addEventListener("click", function(){
 
     
 });
+shareButton.addEventListener("click",function(event){
+    event.preventDefault();
+    inputMessage.value="";
+})
+shareButton.addEventListener("click",function(event){
+    event.preventDefault();
+    inputMessage2.value="";
+})
 btns.addEventListener("click", function(){
     const message2 = inputMessage2.value;
 
